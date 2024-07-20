@@ -1,0 +1,25 @@
+# Dependency directories
+node_modules/
+
+# Compiled output
+build/
+dist/
+
+# Cache and log files
+.cache/
+logs/
+
+# Environment variables
+.env
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# System and temporary files
+.DS_Store
+*.log
+*.tmp
+
+# Ignore the npm debug log
+npm-debug.log*

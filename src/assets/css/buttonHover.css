@@ -1,0 +1,62 @@
+.click:hover {
+    background: #0b3d584c;
+    transform: scale(1.2);
+   
+    transition-duration: 1s;
+}
+
+.click{
+    background: #e2ecf2;
+}
+.searchButtons{
+    gap:5px !important;
+    float: right !important;
+    padding: 5px;
+}
+.multi_select_product{
+    height:100px !important;
+}
+
+/* .refershButton{
+    float:right;
+    
+    background: #e2ecf2;
+    border-radius: 20%;
+
+    transition:  0.5s;
+
+}
+.refershButton:hover{
+  
+
+    background: #0B3D58;
+    color: #fff;
+    
+
+}
+
+.refershButton.active {
+    background-color: #0B3D58;
+    color: #fff;
+}
+.refershbutton-right{
+    float:right;
+    margin:10px;
+} */
+.refresh:hover{
+    animation-name: spin;
+    animation-duration: 300ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+.refreshButton:hover .refreshIcon {
+    animation: spin 1.5s linear infinite;
+}
+@keyframes spin {
+    from {
+        transform:rotate(360deg);
+    }
+    to {
+        transform:rotate(0deg);
+    }
+}

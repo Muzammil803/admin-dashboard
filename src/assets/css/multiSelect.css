@@ -1,0 +1,10 @@
+
+.multi_select_product {
+    overflow: hidden;
+  }
+.multi_select_product .ant-select-selector{
+
+    overflow-y: scroll;
+  
+   
+}

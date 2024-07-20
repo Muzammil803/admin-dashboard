@@ -1,0 +1,20 @@
+import { Link as RouterLink } from 'react-router-dom';
+
+// material-ui
+import { Link, Stack, Typography } from '@mui/material';
+
+// ==============================|| MAIN LAYOUT - FOOTER ||============================== //
+
+const Footer = () => (
+  <Stack direction="row" justifyContent="space-between" alignItems="center" sx={{ p: '24px 16px 0px', mt: 'auto' }}>
+    <Typography variant="caption">Crafted with <b>&#x2764;</b> by <b>My Team</b></Typography>
+    <Stack spacing={1.5} direction="row" justifyContent="space-between" alignItems="center">
+      <Link component={RouterLink} to="/" target="_blank" variant="caption" color="textPrimary">
+        Home
+      </Link>
+
+    </Stack>
+  </Stack>
+);
+
+export default Footer;
